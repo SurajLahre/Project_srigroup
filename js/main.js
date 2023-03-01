@@ -1,6 +1,6 @@
 
 function openNav() {
-    document.getElementById('openid').style.width = '200px';
+    document.getElementById('openid').style.width = '250px';
     
 
 }
