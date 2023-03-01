@@ -1,0 +1,95 @@
+@media only screen and (max-width:850px) {
+    .nav-masthead {
+        display: none;
+    }
+
+    .bi-list-nested {
+        opacity: 100%;
+    }
+}
+
+.logorotate img {
+    transform: translate(60px);
+}
+
+#navsection {
+    background-color: rgb(81, 81, 171)0ff;
+}
+
+.dropdown-item:hover {
+    background-color: RED;
+    color: white;
+
+}
+
+.cardone {
+    transform: translate(1em, 21em);
+
+}
+
+/* Sidenav-slider pannel for navigation */
+.side-nav-main {
+    position: fixed;
+    width: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgb(225, 11, 11);
+    height: 100vh;
+    overflow: hidden;
+    z-index: 3;
+    transition: all .5s;
+}
+
+.side-nav-main ul li {
+    list-style: none;
+
+}
+
+.side-nav-main ul li a {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 0, 0.635);
+    display: block;
+    margin-top: 1em;
+    text-decoration: none;
+    transform: translate(-1em);
+
+}
+
+.navlinks {
+    position: relative;
+    left: 0;
+    text-align: center;
+    margin: auto;
+
+}
+
+.openicon {
+    font-size: xx-large;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: .7em;
+}
+
+
+/* 
+nav a::after {
+    content: '';
+    height: 2px;
+    width: 00%;
+    background-color: red;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+
+}
+
+nav a:hover::after {
+    width: 100%;
+} 
+
+
+ 
+
+  
