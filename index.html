@@ -26,13 +26,43 @@
     <div class="container-fluid d-flex h-100 text-left text-bg-drk"
         style="background-color:rgb(30 82 86);background-image: url(image/pexels-miguel-á-padriñán-3785931.jpg);background-size: cover;background-position:left;">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" style="height: 100vh;">
-          <header class="mb-auto">
+            <header class="mb-auto">
+                <!-- sidebar start -->
+                <aside>
+                    <div class="side-nav-main" id='openid'>
+
+                        <div className="side-nav-links sidenav">
+                            <div id='closeid d-flex'>
+                                <div class="header d-flex bg-dark p-3" style="justify-content: space-between;">
+                                    <div class="logo-one mx-1">
+                                        <img src="image/sri logo.png" width="60px" alt="">
+
+                                    </div>
+                                    <div class="closeicon">
+                                        <span>
+                                            <h3 class="text-light" style="cursor: pointer;" onclick="closeNav()">X</h3>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="navlinks">
+                                <ul>
+                                    <li><a href='/'>Home</a></li>
+                                    <li><a href='/'>About</a></li>
+                                    <li><a href='/'>Contact</a></li>
+                                    <li><a href='/'>Service</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <!-- sidebar start -->
                 <div>
-                    <img src="image/srilogo.png" width="70px" alt="">
-                    <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <img src="image/Srilogo.png" width="70px" alt="">
+                    <nav class="nav nav-masthead justify-content-center float-md-end mx-5">
                         <a class="nav-link text-light fw-bold mx-3 py-4 px-0 active" aria-current="page"
                             href="index.html">Home</a>
-
                         <a class="nav-link text-light fw-bold mx-3 py-4 px-0 active" aria-current="page"
                             href="about.html">About</a>
                         <a class="nav-link text-light fw-bold mx-3 py-4 px-0 dropdown-toggle" href="#" role="button"
@@ -55,6 +85,9 @@
                         <a class="nav-link text-light fw-bold mx-3 py-4 px-0" href="#">Service</a>
                         <a class="nav-link text-light fw-bold mx-3 py-4 px-0" href="contact.html">Contact</a>
                     </nav>
+                    <div class="openicon">
+                        <i class="bi bi-list-nested" onclick="openNav()"></i></i>
+                    </div>
                 </div>
             </header>
             <div class="p-5 d-flex p-md-5 mb-4 rounded text-bg-drk">
